@@ -1,0 +1,264 @@
+.body {
+	 background-color: #808080;
+}
+
+.menu-area {
+	width: auto;
+	height: auto;
+	background-color: black;
+}
+
+.company-name {
+	color: aqua;
+	position: "absolute";
+	font-size: 40px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.user {
+	color : aqua;
+	position: "absolute";
+	font-size: 20px bold;
+	float: right;
+	font-weight: bold;
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 20px;
+	margin-right: 30px;
+}
+
+/* Header Color*/
+.header-color {
+	color: white;
+}
+
+/* Anchor link colors */
+.anchor-style:link {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.anchor-style:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.anchor-style:hover {
+    color: lightgreen;
+    background-color: transparent;
+    text-decoration: none;
+}
+.anchor-style:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.anchor-nostyle:link {
+    /*color: aqua;*/
+    background-color: transparent;
+    text-decoration: none;
+}
+
+/* End of Anchor link colors*/
+
+/* Button */
+.button-style {
+    background-color: #008CB8; /* Green */
+    border: none;
+    color: #fffaf0;
+    padding: 4px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.8s;
+}
+
+.button-style:hover {
+    background-color: white;
+    color: black;
+}
+
+.button-style:active {
+    background-color: yellow;
+}
+
+#title-area {
+	background: #2F4F4F;
+	padding: 0.1px;
+}
+
+/* Inside banner text */
+#naviagation-view {
+	margin-left: 120px;
+	/*margin-top: 2px;*/
+	color: white;
+}
+
+/* Inside banner navigation link */
+.navigation-font-link {
+	color: #ffb600;
+	font-size: 14px;
+	font-family: verdana;
+}
+
+.table-style {
+	margin-top: 30px;
+}
+
+.label-style {
+	font-family: verdana;
+	font-size: 16px;
+	color: 	#FFFAF0;
+}
+
+.input-style {
+	font-family: verdana;
+	width: 300px;
+	height: 30px;
+}
+
+.textarea-style {
+	width: 100%;
+	height: 200px;
+}
+
+#room-type {
+	width: 200%;
+}
+
+.selectbox-style {
+	font-family: verdana;
+	width: 304px;
+	height: 36px;
+}
+
+.price {
+    position: absolute;
+    /*top: 0;
+    left: 0;*/
+    font-size: 1em;
+    text-align: center;
+    padding: 4px 12px;
+    background: #444;
+    border-radius: 0 0 10px 0;
+    color: #fff;
+    z-index: 9;
+    border: 2px solid #fff;
+    border-top: none;
+    border-left: none;
+}
+
+.message {
+	border-bottom: 23px;
+	right: 100px;
+	border-radius: 	0 0 0 10px;
+}
+
+.message1 {
+	top: absolute;
+	border-radius: 	0 0 0 10px;
+}
+
+/* Room Type background color code*/
+.table-row-1 {
+	background-color: #eee;
+}
+
+.table-row-2 {
+	background-color: #a1b1c1;	
+}
+
+.table-row-3 {
+	background-color: yellow;	
+}
+
+.div-margin-left-right {
+	margin-left:12px;
+	margin-right: 12px;
+}
+
+.style-title {
+	color: #8B4513;
+	font-style: 18px;
+	font-family: verdana;
+	font-weight: bold;
+}
+
+
+.style-text {
+	color: #4682B4;
+	font-style: 14px;
+	font-family: verdana;
+}
+
+.h1-style {
+	color: 	#FFE4E1;
+	font-family: verdana;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+
+
+/**/
+.img-inline {
+	display: inline;				
+}
+
+.header-area {
+	background-color: #1E90FF;
+}
+
+.div-content {
+	display: inline;				
+}
+
+.div-color {
+	background-color: #E6E6FA;
+}
+
+.button-login {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 25px;	
+	display: inherit;
+	vertical-align: 20px;
+	background-color: white; 
+	color: black; 
+	border: 2px solid #008CBA;
+	padding: 5px 5px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+	transition-duration: 0.4s;
+	width: 110px;
+}
+
+.button-login:hover {
+	background-color: #008CBA;
+	color: white;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.login-design {
+	vertical-align: 25px;
+	font-size: 20px;
+	display: inherit;
+	margin-left: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 350px;
+}
